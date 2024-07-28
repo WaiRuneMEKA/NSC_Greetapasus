@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: K02-8
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I'm coming.
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: d1306a41d46213747b4c816e0c879743, type: 3}
+    sound: {fileID: 8300000, guid: a339828991c03f340945f0b79d958abd, type: 3}
+  - text: Hmmm.....
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: ac49175752db81945bf1e3cb38e0d050, type: 3}
+  - text: '"trap."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 663faa712e6a67b49893e90a39f7a8b7, type: 3}
+  - text: Ahhhhhh........
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 5.28
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 16.02
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: ab0e9928d24f86a4099ec5345271d3c7, type: 3}
+  - text: HeHeHe....
+    speaker: {fileID: 11400000, guid: fa51ac6f2be2edd49b0169cf206dd1ac, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d39b329e36463784aa6e525b7b39bca6, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 800, y: -30}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 4d98f29466acdda4393d96fa6eecc6ba, type: 3}
+  - text: To be continue...
+    speaker: {fileID: 11400000, guid: fa51ac6f2be2edd49b0169cf206dd1ac, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d39b329e36463784aa6e525b7b39bca6, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 800, y: -30}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: d5adb84b1332ae148b3c53e17d1190ff, type: 3}
+  background: {fileID: 21300000, guid: 4943c2393fdeed64cac280836ac4ec08, type: 3}
+  nextScene: {fileID: 0}

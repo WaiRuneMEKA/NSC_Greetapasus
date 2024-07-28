@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  labels:
+  - text: punch the door
+    nextScene: {fileID: 11400000, guid: 3a47f29a20f1a7f4a80e0bd9f427d160, type: 2}
+  - text: kick the door
+    nextScene: {fileID: 11400000, guid: 5537552dc6e58a94ca150b75c4b9912d, type: 2}

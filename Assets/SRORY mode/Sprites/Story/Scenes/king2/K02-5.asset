@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: K02-5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Ah, I hate the door.
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 0bde396748637394780e7ea06ed1c9e0, type: 3}
+  background: {fileID: 21300000, guid: 1de57c04eeb0fb4438cc10d732e9d8e8, type: 3}
+  nextScene: {fileID: 11400000, guid: 449e08eed495a4d47afbf7c6f2e342f1, type: 2}

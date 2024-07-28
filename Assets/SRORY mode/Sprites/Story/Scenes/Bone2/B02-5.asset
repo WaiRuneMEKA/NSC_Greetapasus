@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: B02-5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Oh, okay, he opened the door.
+    speaker: {fileID: 11400000, guid: e31375015bf3bb940a7194aba714ec5f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: e31375015bf3bb940a7194aba714ec5f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -200, y: -50}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: d1306a41d46213747b4c816e0c879743, type: 3}
+    sound: {fileID: 8300000, guid: 4c0856d2d85939640bbce68038822ff6, type: 3}
+  - text: '"trap."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 663faa712e6a67b49893e90a39f7a8b7, type: 3}
+  - text: Ahhhhhhhhhhhhh............
+    speaker: {fileID: 11400000, guid: e31375015bf3bb940a7194aba714ec5f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: e31375015bf3bb940a7194aba714ec5f, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: -200, y: -50}
+      moveSpeed: 6.41
+    - speaker: {fileID: 11400000, guid: e31375015bf3bb940a7194aba714ec5f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: -50}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: ca6ffdb484fbe0e44bfa03056d7fe6ac, type: 3}
+  - text: He He He....
+    speaker: {fileID: 11400000, guid: fa51ac6f2be2edd49b0169cf206dd1ac, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d39b329e36463784aa6e525b7b39bca6, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 800, y: -30}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 4c833b4d1f3144a47b6d752ae2ce90a3, type: 3}
+  - text: To be continued....
+    speaker: {fileID: 11400000, guid: fa51ac6f2be2edd49b0169cf206dd1ac, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d39b329e36463784aa6e525b7b39bca6, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 800, y: -30}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: d5adb84b1332ae148b3c53e17d1190ff, type: 3}
+  background: {fileID: 21300000, guid: 4943c2393fdeed64cac280836ac4ec08, type: 3}
+  nextScene: {fileID: 0}

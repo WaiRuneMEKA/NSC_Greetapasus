@@ -1,0 +1,4 @@
+repository "GODBLESS@NSCSudJai@cloud"
+  path "/"
+    br "/main"
+    co "/main"

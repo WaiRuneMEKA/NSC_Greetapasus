@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: K01-4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: It my turn to save kingdom.
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 559e41e6a1034b8468e25e7183aea023, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 54.57, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 400, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 62d3aa3f5a7dd4049b8b91e402cd34f0, type: 3}
+    sound: {fileID: 8300000, guid: 4afcb730e220431418264d525e990733, type: 3}
+  - text: The weather is really good.
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: b6df97bd7b11e624290e4148d5efbd0d, type: 3}
+  - text: What kind of forest is that? Let's go exercise.
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: -2000, y: 0}
+      moveSpeed: 2
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: ebe2c1ed714f4024ca2ba182887349c5, type: 3}
+  - text: '"walk"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: -2000, y: 0}
+      moveSpeed: 8.21
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 748561e20cc919842807ac232dc7f6b4, type: 3}
+  background: {fileID: 21300000, guid: 0e8eb4582e9bde14db5b7c4524361399, type: 3}
+  nextScene: {fileID: 11400000, guid: 618a8b93cd2075a40b60bcbb6898696f, type: 2}

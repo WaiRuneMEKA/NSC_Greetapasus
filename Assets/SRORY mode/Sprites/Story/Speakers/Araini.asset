@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Araini
+  m_EditorClassIdentifier: 
+  speakerName: Araini
+  textColor: {r: 0.735849, g: 0.09371662, b: 0.4491003, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: f4932182cab674f4aa0a247703d1c8e9, type: 3}
+  prefab: {fileID: -400084230080365608, guid: 3c6e010879169254d81f4102c1b78f63, type: 3}

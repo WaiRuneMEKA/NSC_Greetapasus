@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: K02-4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: im here,Is anyone there?
+    speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 34f22f0ebe0784f49bf9724f90d21714, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 400, y: 0}
+      moveSpeed: 3.75
+    music: {fileID: 8300000, guid: f25cd2f525a22d44484972a6d8323e4d, type: 3}
+    sound: {fileID: 8300000, guid: c30b1fc283d2e8044abe78d61f563b3f, type: 3}
+  background: {fileID: 21300000, guid: 4eb1053480079a74cbac008541a78b65, type: 3}
+  nextScene: {fileID: 11400000, guid: ddfb1fdc352bb724c824a6b2bfc60798, type: 2}

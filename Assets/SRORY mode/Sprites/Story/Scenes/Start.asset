@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: At Tussy World, there are 5 kingdoms, including Kitty Elf  ,the strongest
+      dwarf , the coolest dragon ,Sorcerer of Calcium and man of ancient science
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 58caa5a37c2ece74c84032ec6aa5745a, type: 3}
+    sound: {fileID: 8300000, guid: 9d96c5d32464894408939f73e406a12f, type: 3}
+  - text: Whose kingdom do you want to live in?
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 3f0fbfabac463e84985e515d6467453f, type: 3}
+  background: {fileID: 21300000, guid: ecf19b9bb060dc34fabeda4de678a85f, type: 3}
+  nextScene: {fileID: 11400000, guid: 539bed5ba867c114d8d9546504bb48e2, type: 2}
